@@ -181,8 +181,9 @@ header .container {
 
 
 .titlesection{
+  --font-color: #ff0000;
   font-size: 3rem;
-  display: flex;
+  display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
