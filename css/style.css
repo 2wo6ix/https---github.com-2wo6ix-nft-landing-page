@@ -104,6 +104,13 @@ body {
     z-index:2;
 }
 
+.overlay3 {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index: index 10;
+}
+
 .container3 { position:relative; }
 .container3 video {
     position:absolute;
