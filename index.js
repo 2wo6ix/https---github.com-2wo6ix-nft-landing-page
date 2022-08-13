@@ -6,7 +6,7 @@ password=prompt('Please enter your GiiR ID key', '');
 
 if (password==pass1) {
     alert('ID Key Correct, Click OK to Enter!');
-    window.location="TrapHouse.html";
+    window.location="google.com";
 
 }
     else
