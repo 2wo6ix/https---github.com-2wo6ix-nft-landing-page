@@ -1,14 +1,19 @@
-var password = "pass1";
+var password;
 
-function passcheck() {
+var pass1="pass1";
 
-    if(document.getElementById('pass1').value != password) {
-        alert('Wrong ID Key, Try a Valid ID key');
+password=prompt('Please enter your GiiR ID key', '');
 
-    return false;
-    }
+if (password==pass1) {
+    alert('ID Key Correct, Click OK to Enter!');
+    window.location="https://wickedgiir.com/traphouse";
 
-    if(document.getElementById('pass1').value == password) {
-        alert('Correct ID Key!. Click OK to enter TrapHouse');
-    }
 }
+    else
+    {
+        alert('ID Key Incorrect, Click OK to Return!');
+        window.location="https://wickedgiir.com";
+
+    }
+
+
