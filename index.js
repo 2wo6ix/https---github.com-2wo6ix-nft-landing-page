@@ -1,6 +1,9 @@
+
 var password;
 
 var pass1="pass1";
+var pass1="pass2";
+var pass1="pass3";
 
 password=prompt('Please enter your GiiR ID key', '');
 
