@@ -8,10 +8,10 @@
   --font-primary: Nosifer, sans-serif;
   --font-secondary: PressStart2P;
   --font-code: 'Roboto', monospace;
-  --bg-color: #ffff36;
+  --bg-color: #ed04d9dc;
   --font-color: #000000;
-  --btn-bg-color: #ffffff;
-  --accent-color: #00fcce;
+  --btn-bg-color: #c10b0b;
+  --accent-color: #04cfb0;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -84,7 +84,7 @@ body {
     position:absolute;
     top:0;
     left:0;
-    z-index: 1000;
+    z-index:2;
 }
 
 .container3 { position:relative; }
